@@ -15,7 +15,15 @@ body{
     padding: 0px;
 }
 .nav-bar ul li a{
+    display: inline-block;
+    padding: 0.75em;
+    text-align: center;
+    box-sizing: border-box;
     text-decoration: none;
     color: slateblue;
     font-size: 1.25em;
 }
+.nav-bar ul{
+    display: flex;
+}
+
